@@ -3,10 +3,14 @@ body {
   padding: 0;
   background: #6190E8;
   font-family: 'Oswald', sans-serif;
+  justify-content: space-between;
+  margin-block-end: 5%;
+  margin-top: 0%;
 }
 
 img{
     border: 2px solid #000;
+    margin-top: 2%;
 } 
 .nav ul {
   list-style: none;
@@ -70,6 +74,7 @@ img{
 
 h2 {
     font-size: 40px;
+    margin-top: 10%;
 }
 
 p{
@@ -77,10 +82,12 @@ p{
 }
 
 fieldset{
-    margin-bottom: 10px;
+    margin-top: 10%;
+    margin-bottom: 5px;
     font-size: 20px;
     border-width: 20px;
     color: #C6C9F5;
+    margin-block-end: 5%;
 }
 
 fieldset li{
@@ -196,7 +203,7 @@ legend{
 
 /* unvisited link */
 a:link {
-    color:#4570F5;
+    color:#C6C9F5;
   }
   
   /* visited link */
@@ -216,22 +223,23 @@ a:link {
 
   .content{
     display: flex;
-    padding: 30px;
+    padding: 0;
     margin:auto;
-    margin-top: 10px;
-    width: 80%;
+    margin-top: 10%x;
+    width: 100%;
     background: #6190E8;
     color:#C6C9F5;
     justify-content: center;
     text-align: center;
 }
+
 #caja{ 
     margin: 20px;
     margin-left: 1%;
-    margin-top: 7%;
+    margin-top: 10%;
     text-align: center;
-    width: 259px;
-    height: 279px;
+    width: 20%;
+    height: 280px;
     background: #4570F5;
     border-radius: 25px;
     border: 3px solid #000 ;
@@ -240,12 +248,14 @@ a:link {
 
 #caja img {
   height: 200px;
-  width: auto;
+  width: 75%;
   border:none;
 }
 
+
 footer {
-  position: absolute;
+  position: fixed;
+  left:0;
   bottom: 0;
   width: 100%;
   background-color: #4570F5;
